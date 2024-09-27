@@ -5,11 +5,6 @@ const nextConfig = {
     domains: ["cdn.sanity.io"],
     formats: ["image/avif", "image/webp"],
   },
-
-  tailwindcss: {
-    config: "./tailwind.config.js",
-    cssModules: true,
-  },
 };
 
 module.exports = nextConfig;
